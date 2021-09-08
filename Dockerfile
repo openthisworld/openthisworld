@@ -1,3 +1,2 @@
-
-FROM nginx
-COPY static-html-directory /usr/share/nginx/html
+FROM php:7.0-apache
+COPY src/ /var/www/html/
