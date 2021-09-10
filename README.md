@@ -8,3 +8,4 @@
 openthisworld/openthisworld is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+[![Docker Image CI](https://github.com/openthisworld/openthisworld/actions/workflows/docker-image.yml/badge.svg)](https://github.com/openthisworld/openthisworld/actions/workflows/docker-image.yml)
