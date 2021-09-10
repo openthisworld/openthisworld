@@ -16,6 +16,6 @@ jobs:
     - name: Publish Docker
       uses: elgohr/Publish-Docker-Github-Action@3.04
       with:
-        name: mdsn/githublesson3
+        name: openthisworld/apache2
         username: openthisworld
         password: ${{ secrets.DOCKER_PASSWORD }}
