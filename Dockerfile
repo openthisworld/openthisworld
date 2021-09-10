@@ -1,2 +1,2 @@
-FROM httpd:2.4
-COPY ./itea.html/ /usr/local/apache2/htdocs/
+FROM nginx
+COPY static-html-directory /usr/share/nginx/html
