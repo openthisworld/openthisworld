@@ -1,2 +1,3 @@
-FROM nginx
-COPY itea.html /usr/share/nginx/
+FROM centos:latest
+RUN yum -y install httpd
+COPY index.html /var/www/html/
