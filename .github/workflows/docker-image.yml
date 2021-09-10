@@ -2,9 +2,7 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
 
@@ -14,5 +12,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag openthisworld/apache2:$(date +%s)
+    
+    - name: Publish Docker
+      uses: elgohr/Publish-Docker-Github-Action@3.04
+      with:
+        name: mdsn/githublesson3
+        username: openthisworld
+        password: ${{ secrets.DOCKER_PASSWORD }}
