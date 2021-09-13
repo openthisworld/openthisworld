@@ -16,7 +16,7 @@ jobs:
     - name: Publish Docker
       uses: elgohr/Publish-Docker-Github-Action@3.04
       with:
-        name: openthisworld/apache2
+        name: openthisworld/apache2:$(date +%s)
         username: openthisworld
         password: ${{ secrets.DOCKER_PASSWORD }}
         tags: "test"
