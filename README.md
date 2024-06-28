@@ -1,6 +1,6 @@
 Welcome to my GitHub profile! 
 
-I am a Junior DevOps Engineer with experience in utilizing various tools and technologies to optimize and automate infrastructure. My skills include:
+I am a Middle DevOps Engineer with experience in utilizing various tools and technologies to optimize and automate infrastructure. My skills include:
 
 
 Terraform: I am proficient in using this tool to provision and manage infrastructure on various cloud platforms.
